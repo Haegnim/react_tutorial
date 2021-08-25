@@ -1,0 +1,27 @@
+//클래스형 컴포넌트 rcc : 배열하고 비슷하다
+import React, { Component } from "react";
+
+export default class App extends Component {
+  render() {
+    return <div></div>;
+  }
+}
+
+
+//함수형 컴포넌트 : rsc
+import React from 'react';
+
+const App = () => {
+  return (
+    <div>
+      
+    </div>
+  );
+};
+
+export default App;
+
+//콘솔 : clg
+console.log(object)
+
+이름을 지을때 대문자로 시작해야 오류가 없다
